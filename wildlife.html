@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife Safari Details - Adventure Travel Guide</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Georgia', serif;
+            color: #023047;
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #8ecae6;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-top: 40px;
+            color: #219ebc;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            margin-top: 20px;
+            color: #126782;
+        }
+
+        p {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: #333333;
+            text-align: justify;
+        }
+
+        ul {
+            list-style-type: square;
+            margin-left: 25px;
+            color: #2c3e50;
+            font-size: 1.05rem;
+        }
+
+        ul li {
+            padding: 5px 0;
+            transition: all 0.3s ease;
+        }
+
+        ul li:hover {
+            color: #219ebc;
+            padding-left: 8px;
+        }
+
+        strong {
+            color: #ff6700;
+        }
+
+        /* Blockquote styling for tips or quotes */
+        blockquote {
+            font-style: italic;
+            color: #555;
+            border-left: 4px solid #8ecae6;
+            padding-left: 15px;
+            margin: 20px 0;
+        }
+
+        /* Subtle background highlight for important sections */
+        .highlight-box {
+            background-color: #f0f9ff;
+            border-left: 4px solid #219ebc;
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 25px;
+        }
+
+        /* Drop caps on first paragraph (for flair) */
+        .container p:first-of-type::first-letter {
+            font-size: 2.5rem;
+            font-weight: bold;
+            float: left;
+            margin-right: 8px;
+            line-height: 1;
+            color: #ff6700;
+        }
+
+        /* Add underline effect to section headings */
+        h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background-color: #219ebc;
+            margin-top: 8px;
+        }
+
+        /* Transition effect for paragraphs */
+        p {
+            transition: color 0.3s ease;
+        }
+
+        /* Animation for list appearance */
+        ul li {
+            opacity: 0;
+            transform: translateX(-10px);
+            animation: listFade 0.6s forwards;
+            animation-delay: calc(var(--i) * 0.1s);
+        }
+
+        @keyframes listFade {
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+
+        footer {
+            background-color: #2c3e50;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .container {
+            padding: 40px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-img-top {
+            width: 50%;
+            /* Make the image responsive */
+            height: 400px;
+            /* Set a fixed height for the images */
+            object-fit: cover;
+            /* Ensure the image covers the area without distortion */
+            text-align: center;
+        }
+
+        .card-img-top {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Wildlife Safari Details Section -->
+    <section id="safari-details" class="py-5">
+        <div class="container">
+            <h1 class="text-center">Wildlife Safari Adventures</h1>
+            <div class="text-center">
+                <img src="6.jpg" class="card-img-top" alt="Adventure 1">
+            </div> <!-- Centered Highlight Image -->
+            <p>Wildlife safari adventures offer an unforgettable opportunity to witness animals thriving in their natural habitat. Here are some key details to consider:</p>
+            
+            <h2>Popular Safari Locations</h2>
+            <ul>
+                <li><strong>Serengeti National Park:</strong> Famous for the Great Migration and diverse wildlife.</li>
+                <li><strong>Kruger National Park:</strong> One of Africa's largest game reserves, home to the Big Five.</li>
+                <li><strong>Masai Mara:</strong> Known for its stunning landscapes and rich wildlife.</li>
+                <li><strong>Yellowstone National Park:</strong> Offers a unique opportunity to see North American wildlife.</li>
+            </ul>
+
+            <h2>Essential Gear for Safari</h2>
+            <p>Before heading out, make sure you have the following gear:</p>
+            <ul>
+                <li>Binoculars for wildlife viewing</li>
+                <li>Camera with zoom lens</li>
+                <li>Comfortable clothing and sturdy shoes</li>
+                <li>Sun protection (sunscreen, sunglasses, hat)</li>
+                <li>Insect repellent</li>
+                <li>Water bottle and snacks</li>
+            </ul>
+
+            <h2>Safety Tips</h2>
+            <p>Safety should always be a priority while on safari:</p>
+            <ul>
+                <li>Follow your guide's instructions at all times.</li>
+                <li>Stay inside the vehicle unless instructed otherwise.</li>
+                <li>Keep a safe distance from wildlife.</li>
+                <li>Be aware of your surroundings and potential hazards.</li>
+                <li>Do not feed or provoke animals.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Adventure Travel Guide. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

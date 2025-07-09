@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Travel Guide</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .card-img-top {
+            width: 100%; /* Make the image responsive */
+            height: 400px; /* Set a fixed height for the images */
+            object-fit: cover; /* Ensure the image covers the area without distortion */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Adventure Travel Guide</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#destinations">Destinations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#adventures">Adventures</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- Hero Section -->
+<header class="hero">
+    <div class="video-container">
+        <video autoplay muted loop class="video-background">
+            <source src="1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-content">
+            <h1 class="display-4">Explore the World</h1>
+            <p class="lead">Your adventure starts here!</p>
+            <a href="#destinations" class="get-started-link">Get Started</a>
+        </div>
+    </div>
+</header>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="my-5">
+        <div class="container">
+            <h2 class="text-center">Top Destinations</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="1.jpg" class="card-img-top" alt="Destination 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Agra, Delhi</h5>
+                            <p class="card-text">Agra is home to the iconic Taj Mahal, a UNESCO World Heritage site, and other remarkable historical monuments like the grand Agra Fort and Mehtab Bagh</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="2.heic" class="card-img-top" alt="Destination 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Paris, France</h5>
+                            <p class="card-text">The "City of Love" is renowned for its romantic ambiance, charming streets, iconic landmarks like the Eiffel Tower, and vibrant culture</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="3.jpg" class="card-img-top" alt="Destination 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Maldives, South Asia</h5>
+                            <p class="card-text">Perfect for honeymooners or couples seeking serenity, this dreamy retreat offers turquoise lagoons, candlelit dinners by the sea, and breathtaking sunset views right from your private deck</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adventures Section -->
+    <section id="adventures" class="my-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Exciting Adventures</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="4.jpg" class="card-img-top" alt="Adventure 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Mountain Hiking</h5>
+                            <p class="card-text">Experience the thrill of hiking in the mountains.</p>
+                            <a href="mountain.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="5.jpg" class="card-img-top" alt="Adventure 2">
+                        <div class="card-body">
+                            <h5 class="card-title">River Rafting</h5>
+                            <p class="card-text">Join us for an exciting river rafting adventure.</p>
+                            <a href="river.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="6.jpg" class="card-img-top" alt="Adventure 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Wildlife Safari</h5>
+                            <p class="card-text">Discover the beauty of wildlife in their natural habitat.</p>
+                            <a href="wildlife.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="my-5">
+        <div class="container">
+            <h2 class="text-center">Latest Blog Posts</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="7.jpg" class="card-img-top" alt="Blog Post 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Top 10 Hiking Trails</h5>
+                            <p class="card-text">Explore the best hiking trails around the world for unforgettable, scenic, and thrilling nature adventures.</p>
+                            <a href="trails.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="8.webp" class="card-img-top" alt="Blog Post 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Travel Tips for Adventurers</h5>
+                            <p class="card-text">Essential tips for your next unforgettable outdoor adventure experience abroad trip planning.</p>
+                            <a href="travel.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="9.jpg" class="card-img-top" alt="Blog Post 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Cultural Experiences Around the World</h5>
+                            <p class="card-text">Immerse yourself in different cultures during your travels.</p>
+                            <a href="cultural.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="my-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-4">
+        <p>&copy; 2025 Adventure Travel Guide. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
